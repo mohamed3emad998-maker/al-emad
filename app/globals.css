@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand tokens (overridden at runtime from the CMS colour settings) */
+  --c-navy: 16 28 44;
+  --c-silver: 197 203 211;
+  --c-red: 214 40 40;
+  --c-charcoal: 23 25 29;
+  --c-white: 255 255 255;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white text-navy antialiased;
+    font-family: var(--font-body), var(--font-arabic), system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+  html[lang="ar"] body {
+    font-family: var(--font-arabic), var(--font-body), system-ui, sans-serif;
+  }
+  ::selection {
+    background: rgb(var(--c-red) / 0.9);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--c-red));
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Wide, heavy display face (Archivo at 125% width) for Latin headlines */
+  .font-wide {
+    font-family: var(--font-display), var(--font-arabic), sans-serif;
+    font-stretch: 125%;
+    font-variation-settings: "wdth" 125;
+  }
+  .eyebrow {
+    @apply font-wide inline-flex items-center gap-4 text-[11px] font-semibold uppercase tracking-eyebrow sm:text-xs;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply block h-px w-10 bg-racing;
+  }
+  .eyebrow-center::after {
+    content: "";
+    @apply block h-px w-10 bg-racing;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-[3px] px-6 py-3.5 text-[15px] font-semibold transition duration-300 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-red {
+    @apply btn bg-racing text-white shadow-[0_12px_30px_-10px_rgb(var(--c-red)/0.7)] hover:-translate-y-0.5 hover:bg-[#bf1f1f];
+  }
+  .btn-ghost {
+    @apply btn border border-white/40 text-white hover:border-white hover:bg-white/5;
+  }
+  .btn-navy {
+    @apply btn bg-navy text-white hover:bg-charcoal;
+  }
+  .btn-outline {
+    @apply btn border border-line bg-white text-navy hover:border-navy;
+  }
+
+  /* Diagonal hairline texture used across dark sections (from the design) */
+  .hatch {
+    background-image: repeating-linear-gradient(
+      135deg,
+      rgb(255 255 255 / 0.035) 0 1px,
+      transparent 1px 22px
+    );
+  }
+  .hatch-light {
+    background-image: repeating-linear-gradient(135deg, rgb(16 28 44 / 0.06) 0 1px, transparent 1px 22px);
+  }
+
+  .field {
+    @apply w-full rounded-[3px] border border-line bg-white px-4 py-3 text-[15px] text-navy placeholder:text-slate-400 transition focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/10;
+  }
+  .label {
+    @apply mb-2 block text-sm font-semibold text-navy;
+  }
+
+  .chip {
+    @apply rounded-full border border-line bg-white px-5 py-2.5 text-sm font-medium text-navy transition hover:border-navy;
+  }
+  .chip-active {
+    @apply border-navy bg-navy text-white;
+  }
+
+  .caption-pill {
+    @apply inline-flex items-center gap-1 rounded-full bg-navy/85 px-3 py-1 text-[11px] font-medium text-white backdrop-blur;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

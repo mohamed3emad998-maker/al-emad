@@ -1,0 +1,340 @@
+{
+  "settings": {
+    "logo_url": null,
+    "favicon_url": null,
+    "colors": {
+      "navy": "#101C2C",
+      "silver": "#C5CBD3",
+      "red": "#D62828",
+      "charcoal": "#17191D",
+      "white": "#FFFFFF"
+    },
+    "hero": {
+      "video_url": "https://videos.pexels.com/video-files/8986476/8986476-hd_1920_1080_30fps.mp4",
+      "poster_url": "https://images.pexels.com/photos/35828170/pexels-photo-35828170.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "overlay": 70
+    },
+    "seo": {
+      "ar": {
+        "title": "العماد | صيانة السيارات اليابانية وقطع الغيار الأصلية",
+        "description": "خدمات صيانة متكاملة وقطع غيار عالية الجودة لسيارتك اليابانية: تويوتا، لكزس، نيسان، هوندا، ميتسوبيشي، مازدا وسوبارو."
+      },
+      "en": {
+        "title": "AL-EMAD | Japanese Car Maintenance & Genuine Spare Parts",
+        "description": "Complete maintenance services and high-quality spare parts for Toyota, Lexus, Nissan, Honda, Mitsubishi, Mazda and Subaru."
+      }
+    },
+    "contact": {
+      "phone": "",
+      "whatsapp": "",
+      "email": "",
+      "maps_url": "",
+      "maps_embed_query": "",
+      "address_ar": "",
+      "address_en": "",
+      "hours": [
+        { "days_ar": "السبت – الخميس", "days_en": "Saturday – Thursday", "time_ar": "", "time_en": "" },
+        { "days_ar": "الجمعة", "days_en": "Friday", "time_ar": "", "time_en": "" }
+      ]
+    },
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "tiktok": "",
+      "x": "",
+      "youtube": ""
+    },
+    "sections": {
+      "hero": true,
+      "about": true,
+      "services": true,
+      "parts": true,
+      "why": true,
+      "gallery": true,
+      "testimonials": true,
+      "booking": true,
+      "whatsapp_fab": true
+    },
+    "nav": [
+      { "id": "home", "href": "#home", "label_ar": "الرئيسية", "label_en": "Home", "visible": true },
+      { "id": "about", "href": "#about", "label_ar": "من نحن", "label_en": "About Us", "visible": true },
+      { "id": "services", "href": "#services", "label_ar": "خدماتنا", "label_en": "Our Services", "visible": true },
+      { "id": "parts", "href": "#parts", "label_ar": "قطع الغيار", "label_en": "Spare Parts", "visible": true },
+      { "id": "why", "href": "#why", "label_ar": "لماذا العماد", "label_en": "Why Choose Us", "visible": true },
+      { "id": "contact", "href": "#booking", "label_ar": "تواصل معنا", "label_en": "Contact Us", "visible": true }
+    ]
+  },
+  "content": {
+    "brand.tagline": { "ar": "العماد لخدمات السيارات", "en": "AUTOMOTIVE SERVICES" },
+    "nav.cta": { "ar": "احجز موعدًا", "en": "Book an Appointment" },
+
+    "hero.eyebrow": { "ar": "JAPANESE AUTOMOTIVE SPECIALISTS", "en": "JAPANESE AUTOMOTIVE SPECIALISTS" },
+    "hero.title_1": { "ar": "YOUR CAR", "en": "YOUR CAR" },
+    "hero.title_2": { "ar": "DESERVES", "en": "DESERVES" },
+    "hero.title_accent": { "ar": "THE BEST", "en": "THE BEST" },
+    "hero.subtitle": { "ar": "العناية المثالية لسيارتك اليابانية تبدأ من هنا", "en": "العناية المثالية لسيارتك اليابانية تبدأ من هنا" },
+    "hero.description": {
+      "ar": "خدمات صيانة متكاملة وقطع غيار عالية الجودة لسيارتك اليابانية، بأيدي خبراء متخصصين.",
+      "en": "Complete maintenance services and high-quality spare parts for your Japanese car — in the hands of specialist experts."
+    },
+    "hero.cta_primary": { "ar": "احجز موعدك الآن", "en": "Book Your Appointment" },
+    "hero.cta_secondary": { "ar": "اكتشف خدماتنا", "en": "Explore Our Services" },
+    "hero.brands_label": { "ar": "متخصصون في", "en": "Specialists in" },
+
+    "about.eyebrow": { "ar": "ABOUT AL-EMAD", "en": "ABOUT AL-EMAD" },
+    "about.title": { "ar": "خبرة نعتز بها.. وثقة تستحقها سيارتك", "en": "Driven by Quality. Powered by Trust." },
+    "about.subtitle": { "ar": "Driven by Quality. Powered by Trust.", "en": "" },
+    "about.body": {
+      "ar": "العماد مركز متخصص في صيانة السيارات اليابانية وتوفير قطع الغيار الأصلية وعالية الجودة. نجمع بين خبرة فنية متخصصة وأجهزة تشخيص حديثة لنقدّم لسيارتك العناية التي صُمّمت لها — بدقة، وشفافية، والتزام بالمواعيد.",
+      "en": "AL-EMAD is a specialist centre for Japanese vehicle maintenance and genuine, high-quality spare parts. We combine focused technical expertise with modern diagnostic equipment to give your car the care it was engineered for — precise, transparent and on time."
+    },
+    "about.mission_title": { "ar": "رسالتنا", "en": "MISSION" },
+    "about.mission": {
+      "ar": "تقديم خدمات صيانة وقطع غيار موثوقة للسيارات اليابانية بمعايير الوكيل وبأسعار عادلة وشفافة.",
+      "en": "Reliable maintenance and parts for Japanese vehicles, to manufacturer standards and at fair, transparent prices."
+    },
+    "about.vision_title": { "ar": "رؤيتنا", "en": "VISION" },
+    "about.vision": {
+      "ar": "أن نكون الوجهة الأولى لأصحاب السيارات اليابانية في المنطقة، والاسم الذي يثقون به لسياراتهم.",
+      "en": "To be the region’s first choice for Japanese car owners — the name they trust with their vehicle."
+    },
+    "about.badge_number": { "ar": "7", "en": "7" },
+    "about.badge_text": { "ar": "علامات يابانية نتخصص في خدمتها", "en": "Japanese brands we specialise in" },
+    "about.image_main": { "ar": "https://images.pexels.com/photos/33814734/pexels-photo-33814734.jpeg?auto=compress&cs=tinysrgb&w=1400", "en": "https://images.pexels.com/photos/33814734/pexels-photo-33814734.jpeg?auto=compress&cs=tinysrgb&w=1400" },
+    "about.image_main_alt": { "ar": "ورشة العماد — خط الصيانة والرافعات", "en": "AL-EMAD workshop — service bays and lifts" },
+    "about.image_secondary": { "ar": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=900", "en": "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=900" },
+    "about.image_secondary_alt": { "ar": "فني يفحص محرك سيارة", "en": "Technician inspecting an engine" },
+
+    "services.eyebrow": { "ar": "OUR SERVICES", "en": "OUR SERVICES" },
+    "services.title": { "ar": "كل ما تحتاجه سيارتك اليابانية تحت سقف واحد", "en": "Everything your Japanese car needs, under one roof" },
+    "services.description": {
+      "ar": "من الفحص الدوري إلى الإصلاحات الدقيقة، نعمل وفق مواصفات الشركة المصنّعة وبأدوات تشخيص حديثة.",
+      "en": "From scheduled servicing to precision repairs — to manufacturer specifications, with modern diagnostic tools."
+    },
+
+    "parts.eyebrow": { "ar": "GENUINE JAPANESE PARTS", "en": "GENUINE JAPANESE PARTS" },
+    "parts.title": { "ar": "قطع غيار يابانية أصلية وعالية الجودة", "en": "Genuine & high-quality Japanese spare parts" },
+    "parts.description": {
+      "ar": "اختر علامة سيارتك لعرض القطع المتوافقة، واطلب عرض سعر مباشرةً من فريقنا.",
+      "en": "Choose your car’s brand to see compatible parts, and request a quote directly from our team."
+    },
+    "parts.custom_request": { "ar": "اطلب قطعة غير موجودة", "en": "Request a part not listed" },
+    "parts.note": {
+      "ar": "تُضاف المنتجات الفعلية وتصنيفاتها والعلامات المتوافقة من لوحة التحكم. لا تُعرض أسعار — كل قطعة بعرض سعر.",
+      "en": "Products, categories and compatible brands are managed from the dashboard. No prices are shown — every part is quoted on request."
+    },
+
+    "why.eyebrow": { "ar": "WHY AL-EMAD", "en": "WHY AL-EMAD" },
+    "why.title": { "ar": "لماذا يختار أصحاب السيارات اليابانية العماد؟", "en": "Why do Japanese car owners choose AL-EMAD?" },
+    "why.description": {
+      "ar": "لأن السيارة اليابانية تُبنى بدقة، وتستحق من يعرف تفاصيلها. هذا ما نلتزم به في كل زيارة.",
+      "en": "Japanese cars are built with precision and deserve people who know every detail. That’s our commitment on every visit."
+    },
+    "why.image": { "ar": "https://images.pexels.com/photos/6870313/pexels-photo-6870313.jpeg?auto=compress&cs=tinysrgb&w=1400", "en": "https://images.pexels.com/photos/6870313/pexels-photo-6870313.jpeg?auto=compress&cs=tinysrgb&w=1400" },
+    "why.image_alt": { "ar": "فني يشخّص محرك سيارة داخل الورشة", "en": "Technician diagnosing an engine in the workshop" },
+    "why.1_title": { "ar": "خبرة متخصصة في السيارات اليابانية", "en": "Specialised Japanese Car Expertise" },
+    "why.1_text": { "ar": "تركيزنا على السيارات اليابانية يعني معرفة أعمق بأنظمتها وأعطالها الشائعة.", "en": "Our focus on Japanese cars means deeper knowledge of their systems and common faults." },
+    "why.2_title": { "ar": "فنيون ذوو خبرة", "en": "Experienced Technicians" },
+    "why.2_text": { "ar": "فريق مدرّب يعمل وفق إجراءات واضحة ومعايير الشركة المصنّعة.", "en": "A trained team working to clear procedures and manufacturer standards." },
+    "why.3_title": { "ar": "قطع غيار عالية الجودة", "en": "High-Quality Spare Parts" },
+    "why.3_text": { "ar": "قطع أصلية وبدائل معتمدة، مع توضيح نوع القطعة قبل التركيب.", "en": "Genuine parts and approved alternatives — always explained before fitting." },
+    "why.4_title": { "ar": "أجهزة تشخيص حديثة", "en": "Modern Diagnostic Equipment" },
+    "why.4_text": { "ar": "نحدد العطل بدقة قبل الإصلاح، فتدفع فقط مقابل ما تحتاجه سيارتك.", "en": "We pinpoint the fault before repairing, so you only pay for what your car needs." },
+    "why.5_title": { "ar": "خدمة عملاء احترافية", "en": "Professional Customer Service" },
+    "why.5_text": { "ar": "تواصل واضح، وتقدير مسبق للتكلفة، وإبلاغك بكل خطوة.", "en": "Clear communication, upfront estimates and updates at every step." },
+    "why.6_title": { "ar": "التزام بالجودة", "en": "Commitment to Quality" },
+    "why.6_text": { "ar": "فحص نهائي لكل سيارة قبل التسليم، لأن سمعتنا تُبنى على كل تفصيلة.", "en": "A final check on every car before handover — our reputation is built on details." },
+
+    "gallery.eyebrow": { "ar": "INSIDE THE WORKSHOP", "en": "INSIDE THE WORKSHOP" },
+    "gallery.title": { "ar": "جولة داخل ورشة العماد", "en": "Inside the AL-EMAD workshop" },
+
+    "testimonials.eyebrow": { "ar": "TESTIMONIALS", "en": "TESTIMONIALS" },
+    "testimonials.title": { "ar": "ماذا يقول عملاؤنا", "en": "What our customers say" },
+    "testimonials.description": {
+      "ar": "التقييمات تُضاف وتُعدَّل من لوحة التحكم. المحتوى الحالي مؤقت حتى تصل تقييمات العملاء الحقيقية.",
+      "en": "Reviews are added and edited from the dashboard. Current content is a placeholder until genuine customer reviews arrive."
+    },
+
+    "booking.eyebrow": { "ar": "BOOK AN APPOINTMENT", "en": "BOOK AN APPOINTMENT" },
+    "booking.title": { "ar": "احجز موعد صيانة سيارتك", "en": "Book your car’s service appointment" },
+    "booking.description": {
+      "ar": "املأ النموذج وسيتواصل معك فريقنا لتأكيد الموعد، أو راسلنا مباشرة عبر واتساب.",
+      "en": "Fill in the form and our team will contact you to confirm, or message us directly on WhatsApp."
+    },
+
+    "footer.description": {
+      "ar": "مركز متخصص في صيانة السيارات اليابانية وقطع الغيار الأصلية — جودة نلتزم بها وثقة نحافظ عليها.",
+      "en": "A specialist centre for Japanese car maintenance and genuine spare parts — quality we commit to, trust we keep."
+    },
+    "footer.copyright": { "ar": "العماد لخدمات السيارات. جميع الحقوق محفوظة.", "en": "AL-EMAD Automotive Services. All rights reserved." }
+  },
+  "stats": [
+    { "value": null, "suffix": "+", "label_ar": "سنوات من الخبرة", "label_en": "Years of experience", "sort_order": 1 },
+    { "value": null, "suffix": "+", "label_ar": "سيارة تمت صيانتها", "label_en": "Vehicles serviced", "sort_order": 2 },
+    { "value": null, "suffix": "", "label_ar": "فنيًا متخصصًا", "label_en": "Specialist technicians", "sort_order": 3 },
+    { "value": null, "suffix": "%", "label_ar": "رضا العملاء", "label_en": "Customer satisfaction", "sort_order": 4 }
+  ],
+  "services": [
+    {
+      "slug": "engine-maintenance", "sort_order": 1,
+      "title_ar": "صيانة المحركات", "title_en": "Engine Maintenance",
+      "summary_ar": "فحص وصيانة وإصلاح المحركات اليابانية وفق مواصفات الشركة المصنّعة.",
+      "summary_en": "Inspection, servicing and repair of Japanese engines to manufacturer specifications.",
+      "details_ar": "نشخّص أداء المحرك بدقة ونعالج مشكلات الأداء والتسريبات والأصوات غير الطبيعية، مع استبدال القطع المستهلكة بقطع أصلية أو معتمدة وتقديم تقرير واضح بما تم.",
+      "details_en": "We accurately diagnose engine performance, fix power loss, leaks and unusual noises, and replace worn components with genuine or approved parts — with a clear report of the work done.",
+      "image_url": "https://images.pexels.com/photos/8478259/pexels-photo-8478259.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "فني يعمل على محرك مكشوف", "image_alt_en": "Technician working on an open engine"
+    },
+    {
+      "slug": "transmission-services", "sort_order": 2,
+      "title_ar": "خدمات ناقل الحركة", "title_en": "Transmission Services",
+      "summary_ar": "صيانة وإصلاح ناقل الحركة الأوتوماتيكي واليدوي و CVT، وتغيير الزيت والفلاتر.",
+      "summary_en": "Automatic, manual and CVT servicing and repair, fluid and filter changes.",
+      "details_ar": "فحص ناقل الحركة وقراءة أكواد الأعطال، وتغيير زيت ATF و CVT بالمواصفات الصحيحة، وإصلاح مشكلات التبديل والاهتزاز.",
+      "details_en": "Transmission inspection and fault-code reading, ATF and CVT fluid changes to the correct spec, and repair of shifting and judder issues.",
+      "image_url": "https://images.pexels.com/photos/20312398/pexels-photo-20312398.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "عصا ناقل الحركة داخل السيارة", "image_alt_en": "Gear selector inside a car"
+    },
+    {
+      "slug": "electrical-diagnostics", "sort_order": 3,
+      "title_ar": "تشخيص الأعطال الكهربائية", "title_en": "Electrical Diagnostics",
+      "summary_ar": "تشخيص دقيق بأجهزة فحص حديثة لأنظمة الكهرباء والحساسات ووحدات التحكم.",
+      "summary_en": "Accurate fault-finding for electrics, sensors and control units with modern scan tools.",
+      "details_ar": "فحص شامل عبر منفذ OBD، وتتبع الأعطال الكهربائية، والحساسات، وأنظمة الشحن والبطارية ووحدات التحكم الإلكترونية.",
+      "details_en": "Full OBD scanning, electrical fault tracing, sensors, charging and battery systems, and electronic control units.",
+      "image_url": "https://images.pexels.com/photos/4116172/pexels-photo-4116172.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "جهاز تشخيص متصل بالسيارة", "image_alt_en": "Diagnostic scanner connected to a car"
+    },
+    {
+      "slug": "mechanical-repairs", "sort_order": 4,
+      "title_ar": "الإصلاحات الميكانيكية", "title_en": "Mechanical Repairs",
+      "summary_ar": "إصلاح أنظمة التعليق والتوجيه والتبريد ومختلف الأعطال الميكانيكية.",
+      "summary_en": "Suspension, steering, cooling and all mechanical repairs.",
+      "details_ar": "إصلاح أنظمة التعليق والتوجيه والتبريد والعادم، واستبدال المساعدات والجلب والأذرع وفق مواصفات السيارة.",
+      "details_en": "Repairs to suspension, steering, cooling and exhaust systems, including shocks, bushings and control arms to vehicle spec.",
+      "image_url": "https://images.pexels.com/photos/8986105/pexels-photo-8986105.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "سيارة مرفوعة وفني أسفلها", "image_alt_en": "Car on a lift, technician beneath"
+    },
+    {
+      "slug": "oil-filter-replacement", "sort_order": 5,
+      "title_ar": "تغيير الزيت والفلاتر", "title_en": "Oil & Filter Replacement",
+      "summary_ar": "زيوت وفلاتر بمواصفات معتمدة تحافظ على أداء المحرك وعمره.",
+      "summary_en": "Approved-spec oils and filters that protect engine performance and life.",
+      "details_ar": "تغيير زيت المحرك بالدرجة الموصى بها، واستبدال فلاتر الزيت والهواء والمكيّف، مع فحص سريع للسوائل.",
+      "details_en": "Engine oil change with the recommended grade, oil, air and cabin filter replacement, plus a quick fluid check.",
+      "image_url": "https://images.pexels.com/photos/36281957/pexels-photo-36281957.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "فحص مستوى زيت المحرك", "image_alt_en": "Checking the engine oil level"
+    },
+    {
+      "slug": "periodic-maintenance", "sort_order": 6,
+      "title_ar": "الصيانة الدورية", "title_en": "Periodic Maintenance",
+      "summary_ar": "برامج صيانة حسب عدد الكيلومترات وتوصيات الوكيل، مع تقرير فحص شامل.",
+      "summary_en": "Mileage-based service plans following dealer recommendations, with a full report.",
+      "details_ar": "صيانة دورية حسب جدول الشركة المصنّعة (10,000 / 20,000 / 40,000 كم…) مع قائمة فحص شاملة وتقرير مكتوب.",
+      "details_en": "Scheduled servicing per the manufacturer's interval plan, with a comprehensive checklist and written report.",
+      "image_url": "https://images.pexels.com/photos/7736042/pexels-photo-7736042.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "فني يراجع قائمة الفحص بجانب السيارة", "image_alt_en": "Technician with an inspection checklist"
+    },
+    {
+      "slug": "brake-system-services", "sort_order": 7,
+      "title_ar": "خدمات نظام الفرامل", "title_en": "Brake System Services",
+      "summary_ar": "فحص واستبدال الفحمات والأقراص وصيانة نظام ABS لقيادة آمنة.",
+      "summary_en": "Pads, discs and ABS servicing for safe, confident braking.",
+      "details_ar": "فحص سماكة الفحمات والأقراص، وتغيير زيت الفرامل، وتشخيص أعطال ABS لضمان توقف آمن.",
+      "details_en": "Pad and disc wear checks, brake fluid replacement and ABS diagnostics for safe stopping.",
+      "image_url": "https://images.pexels.com/photos/34277923/pexels-photo-34277923.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "قرص وفحمات فرامل عن قرب", "image_alt_en": "Brake disc and pads close-up"
+    },
+    {
+      "slug": "japanese-car-spare-parts", "sort_order": 8,
+      "title_ar": "قطع غيار السيارات اليابانية", "title_en": "Japanese Car Spare Parts",
+      "summary_ar": "قطع أصلية وبدائل عالية الجودة لمختلف الطرازات اليابانية.",
+      "summary_en": "Genuine and high-quality parts for a wide range of Japanese models.",
+      "details_ar": "نوفّر قطعًا أصلية وبدائل معتمدة لتويوتا ولكزس ونيسان وهوندا وميتسوبيشي ومازدا وسوبارو، مع إمكانية الطلب المسبق.",
+      "details_en": "Genuine and approved parts for Toyota, Lexus, Nissan, Honda, Mitsubishi, Mazda and Subaru, with pre-order available.",
+      "image_url": "https://images.pexels.com/photos/19499386/pexels-photo-19499386.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "image_alt_ar": "قطع غيار سيارات", "image_alt_en": "Automotive spare parts"
+    }
+  ],
+  "part_categories": [
+    { "key": "filters", "name_ar": "الفلاتر", "name_en": "Filters", "sort_order": 1 },
+    { "key": "brakes", "name_ar": "الفرامل", "name_en": "Brakes", "sort_order": 2 },
+    { "key": "engine", "name_ar": "المحرك", "name_en": "Engine", "sort_order": 3 },
+    { "key": "transmission", "name_ar": "ناقل الحركة", "name_en": "Transmission", "sort_order": 4 },
+    { "key": "electrical", "name_ar": "الكهرباء", "name_en": "Electrical", "sort_order": 5 },
+    { "key": "suspension", "name_ar": "التعليق", "name_en": "Suspension", "sort_order": 6 }
+  ],
+  "parts": [
+    {
+      "category": "filters", "sort_order": 1,
+      "name_ar": "فلاتر الزيت والهواء والمكيّف", "name_en": "Oil, Air & Cabin Filters",
+      "description_ar": "فلاتر أصلية وبمواصفات المصنّع لحماية المحرك وجودة هواء المقصورة.",
+      "description_en": "Genuine and OEM-spec filters to protect the engine and cabin air quality.",
+      "image_url": "https://images.pexels.com/photos/4489765/pexels-photo-4489765.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "محرك سيارة أثناء الصيانة", "image_alt_en": "Engine bay during servicing",
+      "brands": ["Toyota", "Lexus", "Nissan", "Honda", "Mitsubishi", "Mazda", "Subaru"]
+    },
+    {
+      "category": "brakes", "sort_order": 2,
+      "name_ar": "فحمات وأقراص الفرامل", "name_en": "Brake Pads & Discs",
+      "description_ar": "قطع فرامل أصلية ومعتمدة لأداء كبح ثابت وآمن.",
+      "description_en": "Genuine and approved brake parts for consistent, safe braking.",
+      "image_url": "https://images.pexels.com/photos/20408753/pexels-photo-20408753.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "عجلة وقرص فرامل", "image_alt_en": "Wheel and brake disc",
+      "brands": ["Toyota", "Lexus", "Nissan", "Honda", "Mazda"]
+    },
+    {
+      "category": "engine", "sort_order": 3,
+      "name_ar": "قطع المحرك وسيور التوقيت", "name_en": "Engine Parts & Timing Belts",
+      "description_ar": "سيور، شمعات، حشوات ومضخات لمحركات السيارات اليابانية.",
+      "description_en": "Belts, spark plugs, gaskets and pumps for Japanese engines.",
+      "image_url": "https://images.pexels.com/photos/19499386/pexels-photo-19499386.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "قطع محرك", "image_alt_en": "Engine components",
+      "brands": ["Toyota", "Nissan", "Mitsubishi", "Subaru"]
+    },
+    {
+      "category": "transmission", "sort_order": 4,
+      "name_ar": "قطع وزيوت ناقل الحركة", "name_en": "Transmission Parts & Fluids",
+      "description_ar": "زيوت ATF و CVT وفلاتر وحشوات بمواصفات الوكيل.",
+      "description_en": "ATF and CVT fluids, filters and gaskets to dealer spec.",
+      "image_url": "https://images.pexels.com/photos/8986137/pexels-photo-8986137.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "أسفل السيارة على الرافعة", "image_alt_en": "Vehicle underside on a lift",
+      "brands": ["Toyota", "Lexus", "Nissan", "Honda"]
+    },
+    {
+      "category": "electrical", "sort_order": 5,
+      "name_ar": "حساسات وبطاريات وقطع كهربائية", "name_en": "Sensors, Batteries & Electrical",
+      "description_ar": "حساسات أكسجين وABS، بطاريات، مولدات وقطع إشعال.",
+      "description_en": "Oxygen and ABS sensors, batteries, alternators and ignition parts.",
+      "image_url": "https://images.pexels.com/photos/37177070/pexels-photo-37177070.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "بطارية سيارة داخل حجرة المحرك", "image_alt_en": "Car battery in the engine bay",
+      "brands": ["Toyota", "Lexus", "Nissan", "Honda", "Mitsubishi", "Mazda", "Subaru"]
+    },
+    {
+      "category": "suspension", "sort_order": 6,
+      "name_ar": "قطع التعليق والتوجيه", "name_en": "Suspension & Steering Parts",
+      "description_ar": "مساعدات، جلب، أذرع ومقصات لثبات وراحة القيادة.",
+      "description_en": "Shocks, bushings, arms and links for stable, comfortable driving.",
+      "image_url": "https://images.pexels.com/photos/8986138/pexels-photo-8986138.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      "image_alt_ar": "سيارة دفع رباعي على رافعة الصيانة", "image_alt_en": "SUV on a service lift",
+      "brands": ["Toyota", "Nissan", "Mitsubishi", "Mazda", "Subaru"]
+    }
+  ],
+  "gallery": [
+    { "category": "workshop", "url": "https://images.pexels.com/photos/33814734/pexels-photo-33814734.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "منطقة الاستقبال والفحص", "caption_en": "Reception & inspection area", "sort_order": 1 },
+    { "category": "technicians", "url": "https://images.pexels.com/photos/8986105/pexels-photo-8986105.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "فني أثناء فحص أسفل السيارة", "caption_en": "Technician inspecting the underside", "sort_order": 2 },
+    { "category": "cars", "url": "https://images.pexels.com/photos/8986132/pexels-photo-8986132.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "سيارة على رافعة الصيانة", "caption_en": "Car on a service lift", "sort_order": 3 },
+    { "category": "engines", "url": "https://images.pexels.com/photos/6870319/pexels-photo-6870319.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "حجرة المحرك أثناء الصيانة", "caption_en": "Engine bay during service", "sort_order": 4 },
+    { "category": "parts", "url": "https://images.pexels.com/photos/19499386/pexels-photo-19499386.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "قطع الغيار الأصلية", "caption_en": "Genuine spare parts", "sort_order": 5 },
+    { "category": "diagnostics", "url": "https://images.pexels.com/photos/4116172/pexels-photo-4116172.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "جهاز تشخيص متصل بالسيارة", "caption_en": "Diagnostic scanner connected to a car", "sort_order": 6 },
+    { "category": "workshop", "url": "https://images.pexels.com/photos/35828170/pexels-photo-35828170.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "خطوط الصيانة داخل الورشة", "caption_en": "Service bays inside the workshop", "sort_order": 7 },
+    { "category": "engines", "url": "https://images.pexels.com/photos/8478259/pexels-photo-8478259.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "صيانة المحرك", "caption_en": "Engine maintenance", "sort_order": 8 },
+    { "category": "technicians", "url": "https://images.pexels.com/photos/4116231/pexels-photo-4116231.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "فريق الفنيين", "caption_en": "Our technicians at work", "sort_order": 9 },
+    { "category": "workshop", "media_type": "video", "url": "https://videos.pexels.com/video-files/9498286/9498286-hd_1280_720_50fps.mp4", "poster_url": "https://images.pexels.com/photos/8986138/pexels-photo-8986138.jpeg?auto=compress&cs=tinysrgb&w=1600", "caption_ar": "جولة مصوّرة في الورشة", "caption_en": "Video walk-through of the workshop", "sort_order": 10 }
+  ],
+  "testimonials": [
+    { "customer_name": "[اسم العميل]", "car": "[طراز السيارة]", "text_ar": "[سيظهر هنا تقييم حقيقي من أحد عملاء العماد — يُضاف ويُعدَّل من لوحة التحكم.]", "text_en": "[A genuine review from an AL-EMAD customer will appear here — added and edited from the dashboard.]", "rating": 5, "sort_order": 1 },
+    { "customer_name": "[اسم العميل]", "car": "[طراز السيارة]", "text_ar": "[مساحة لتقييم عميل حقيقي ثانٍ.]", "text_en": "[Space for a second genuine customer review.]", "rating": 5, "sort_order": 2 },
+    { "customer_name": "[اسم العميل]", "car": "[طراز السيارة]", "text_ar": "[مساحة لتقييم عميل حقيقي ثالث.]", "text_en": "[Space for a third genuine customer review.]", "rating": 5, "sort_order": 3 }
+  ]
+}
